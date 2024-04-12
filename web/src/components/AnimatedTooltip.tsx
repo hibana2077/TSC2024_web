@@ -2,7 +2,7 @@
  * @Author: hibana2077 hibana2077@gmail.com
  * @Date: 2024-04-12 21:01:33
  * @LastEditors: hibana2077 hibana2077@gmail.com
- * @LastEditTime: 2024-04-12 21:31:35
+ * @LastEditTime: 2024-04-12 21:37:43
  * @FilePath: \TSC2024_web\web\src\components\AnimatedTooltip.tsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -58,7 +58,7 @@ export function AnimatedTooltipPreview() {
   return (
     <>
         <div className="flex flex-row items-center justify-center mb-10 w-full">
-            <h1 className="text-2xl font-bold text-center">Hosts</h1>
+            <h1 className="text-4xl font-bold text-center">Hosts</h1>
         </div>
         <div className="flex flex-row items-center justify-center mb-10 w-full">
             <AnimatedTooltip items={people} />
