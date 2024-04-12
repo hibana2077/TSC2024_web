@@ -1,10 +1,14 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Feature1 from '../components/Feature1.astro';
+import Feature2 from '../components/Feature2.astro';
 import {BackgroundGradientAnimationDemo} from '../components/hero_gradient.tsx';
 ---
 
 <Layout title="TSC 2024">
 	<main>
 		<BackgroundGradientAnimationDemo client:load />
+		<Feature1 />
+		<Feature2 class="my-2" />
 	</main>
 </Layout>
