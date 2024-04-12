@@ -4,7 +4,7 @@
  * @LastEditors: hibana2077 hibana2077@gmail.com
  * @LastEditTime: 2024-04-12 21:03:28
  * @FilePath: \TSC2024_web\web\src\components\bento_grid_wall.tsx
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ * @Description: 
  */
 import { cn } from "../utils/cn";
 import React from "react";
