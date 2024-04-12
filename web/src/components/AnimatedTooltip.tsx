@@ -2,7 +2,7 @@
  * @Author: hibana2077 hibana2077@gmail.com
  * @Date: 2024-04-12 21:01:33
  * @LastEditors: hibana2077 hibana2077@gmail.com
- * @LastEditTime: 2024-04-12 21:37:43
+ * @LastEditTime: 2024-04-12 21:52:09
  * @FilePath: \TSC2024_web\web\src\components\AnimatedTooltip.tsx
  * @Description: 
  */
@@ -52,6 +52,13 @@ const people = [
     image:
       "https://cdn.discordapp.com/avatars/841707190690775063/a_d83e79e90598fd730498ef7f3a68f853.webp?size=128",
   },
+  {
+    id: 7,
+    name: "苜礿",
+    designation: "中興資安社 社長",
+    image:
+      "https://cdn.discordapp.com/avatars/493487434823237684/8535b0600c7a88d43090eba956a09010.webp?size=128",
+  }
 ];
 
 export function AnimatedTooltipPreview() {
