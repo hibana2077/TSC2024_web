@@ -3,12 +3,16 @@ import Layout from '../layouts/Layout.astro';
 import Feature1 from '../components/Feature1.astro';
 import Feature2 from '../components/Feature2.astro';
 import {BackgroundGradientAnimationDemo} from '../components/hero_gradient.tsx';
+import {BentoGridDemo} from '../components/bento_grid_wall.tsx';
+import {AnimatedTooltipPreview} from '../components/AnimatedTooltip.tsx';
 ---
 
 <Layout title="TSC 2024">
 	<main>
 		<BackgroundGradientAnimationDemo client:load />
-		<Feature1 />
+		<Feature1 class="my-2"/>
+		<BentoGridDemo client:load />
+		<AnimatedTooltipPreview client:load />
 		<Feature2 class="my-2" />
 	</main>
 </Layout>
