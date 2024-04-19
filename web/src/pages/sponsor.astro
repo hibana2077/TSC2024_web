@@ -1,6 +1,9 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import SponsorHero from '../components/SponsorHero';
+import SponsorCard from '../components/SponsorCard.tsx';
+
+var host_img_src = "https://scontent.cdninstagram.com/v/t39.30808-6/405979827_122119884146086135_140724784796919169_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOCJ9&_nc_ht=scontent.cdninstagram.com&_nc_cat=107&_nc_ohc=pdKDvf_idHIAb4dVNz6&edm=APs17CUAAAAA&ccb=7-5&ig_cache_key=MzI0NDM3MDk5Nzg2MzM3NDMwMA%3D%3D.2-ccb7-5&oh=00_AfD_6iiVGAM6wIjyMjbDWF-NA0jg8IT6fVArNd3X_E-u3Q&oe=662593CD&_nc_sid=10d13b"
 ---
 
 <Layout title="TSC 2024 合作夥伴">
@@ -10,16 +13,20 @@ import SponsorHero from '../components/SponsorHero';
             <div class="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
                 <div class="mx-auto max-w-2xl text-center">
                     <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">主辦單位</h2>
-                    <img src="/images/sponsor/tsc2024/sitcon.png" alt="TSC" class="mx-auto mt-6 w-48" />
+                    <img src={host_img_src} alt="TSC" class="mx-auto mt-6 w-52" />
                     <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600">TSC 一直秉持著不向與會者收費的原則來舉辦資訊研討會，不僅創造許多學生們交流、教學互長的機會，也帶領無數學子踏入資訊的殿堂。</p>
               </div>
             </div>
             <div class="px-6 py-10 sm:px-6 sm:py-10 lg:px-8">
                 <div class="mx-auto max-w-2xl text-center">
-                    <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">共同主辦</h2>
+                    <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">贊助商</h2>
                     <div class="grid grid-cols-2 gap-6 mt-6">
-                        <img src="/images/sponsor/tsc2024/ntu.png" alt="NTU" class="mx-auto w-32" />
-                        <img src="/images/sponsor/tsc2024/ntust.png" alt="NTUST" class="mx-auto w-32" />
+                        <SponsorCard header='DEVCORE' image='https://devco.re/images/logo.svg' description='DEVCORE 從駭客思維出發，為企業執行最真實的紅隊演練與滲透測試。用最卓越的攻擊技術，讓全世界變得更安全。積極改善資安產業，讓台灣資安人才有更好的舞台。' client:visible />
+                        <SponsorCard header='中華資安國際' image='https://www.chtsecurity.com/images/logo.png' description='中華資安國際擁有多年的資訊安全攻防實戰經驗，統合研發、實務、技術能力，提供事前檢測、事中監控應變、事後鑑識回復的資安產品及服務，一站式滿足政府及企業的資安需求。' client:visible />
+                        <SponsorCard header='數聯資安' image='https://www.issdu.com.tw/assets/images/logo.png' description='數聯為國內頂尖專業資安服務先驅，自2004年成立，擁有全台首座企業級資安監控中心，2009年成為遠傳100%子公司後，整合豐富集團資通訊網路資源，持續深耕資安服務領域，為國內資安專業領導廠商。' client:visible />
+                        <SponsorCard header='零壹科技&Thales' image='https://media.discordapp.net/attachments/1116629089491624008/1230748630433140787/image.png?ex=663472fb&is=6621fdfb&hm=1401ba6a8487cd9676b4c732a6a2b1741019d91236b5875d7dfdae43319af57d&=&format=webp&quality=lossless' description='Thales集團是位居全球技術領先的國際集團，領域橫跨航太、地面交通運輸、國防科技、安全、數位科技暨服務等各方面，Thales遍佈全球68個國家總計捌萬多名員工。' client:visible />
+                        <SponsorCard header="台灣駭客協會 HIT" image='https://sitcon.org/2024/sponsor/hit.png' description='台灣駭客年會（Hacks In Taiwan Conference, HITCON）於 2005 年起成立，期間除舉辦每年一度的研討會外，亦成立「社團法人台灣駭客協會」（HIT），希望能替臺灣的資訊安全盡一份心力。' client:visible />
+                        <SponsorCard header='趨勢科技' image='https://sitcon.org/2024/sponsor/trendmicro.png' description='趨勢科技是網路資安解決方案全球領導廠商，協助世界創造一個安全的資訊交換環境。我們專為消費者、企業及政府機構設計的創新解決方案，是保護護消費者、企業及政府機構安全連結世界的最佳夥伴。市佔率在全球雲端安全、全球虛擬化安全與伺服器安全皆為第一。' client:visible />
                     </div>
               </div>
             </div>
