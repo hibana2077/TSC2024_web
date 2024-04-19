@@ -1,0 +1,12 @@
+---
+import Layout from '../layouts/Layout.astro';
+import StaffHero from '../components/StaffHero.tsx';
+import {AnimatedTooltipPreview} from '../components/AnimatedTooltip.tsx';
+---
+
+<Layout title="TSC 團隊">
+	<main>
+		<StaffHero client:visible />
+		<AnimatedTooltipPreview client:load />
+	</main>
+</Layout>

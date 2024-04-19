@@ -1,0 +1,28 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SponsorHero from '../components/SponsorHero';
+---
+
+<Layout title="TSC 2024 合作夥伴">
+	<main>
+        <SponsorHero client:idle />
+        <div class="bg-white">
+            <div class="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
+                <div class="mx-auto max-w-2xl text-center">
+                    <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">主辦單位</h2>
+                    <img src="/images/sponsor/tsc2024/sitcon.png" alt="TSC" class="mx-auto mt-6 w-48" />
+                    <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600">TSC 一直秉持著不向與會者收費的原則來舉辦資訊研討會，不僅創造許多學生們交流、教學互長的機會，也帶領無數學子踏入資訊的殿堂。</p>
+              </div>
+            </div>
+            <div class="px-6 py-10 sm:px-6 sm:py-10 lg:px-8">
+                <div class="mx-auto max-w-2xl text-center">
+                    <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">共同主辦</h2>
+                    <div class="grid grid-cols-2 gap-6 mt-6">
+                        <img src="/images/sponsor/tsc2024/ntu.png" alt="NTU" class="mx-auto w-32" />
+                        <img src="/images/sponsor/tsc2024/ntust.png" alt="NTUST" class="mx-auto w-32" />
+                    </div>
+              </div>
+            </div>
+        </div>
+	</main>
+</Layout>

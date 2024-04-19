@@ -2,7 +2,7 @@
  * @Author: hibana2077 hibana2077@gmail.com
  * @Date: 2024-04-12 20:38:28
  * @LastEditors: hibana2077 hibana2077@gmail.com
- * @LastEditTime: 2024-04-12 21:03:28
+ * @LastEditTime: 2024-04-18 16:20:34
  * @FilePath: \TSC2024_web\web\src\components\bento_grid_wall.tsx
  * @Description: 
  */
@@ -23,7 +23,7 @@ export function BentoGridDemo() {
   return (
     <><div className="max-w-4xl mx-auto my-2">
           <h1 className="text-4xl text-center font-bold text-neutral-900 dark:text-neutral-100 mb-8">
-              Explore the World of 
+              和我們一同成為一名
               <span className=" text-arapawa-500"> Hacker</span>
           </h1>
       </div><BentoGrid className="max-w-4xl mx-auto mb-10">

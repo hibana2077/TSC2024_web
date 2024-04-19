@@ -2,7 +2,7 @@
  * @Author: hibana2077 hibana2077@gmail.com
  * @Date: 2024-04-12 18:36:15
  * @LastEditors: hibana2077 hibana2077@gmail.com
- * @LastEditTime: 2024-04-12 21:46:11
+ * @LastEditTime: 2024-04-18 17:38:23
  * @FilePath: \TSC2024_web\web\tailwind.config.mjs
  * @Description: 
  */
